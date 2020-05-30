@@ -1,12 +1,37 @@
-html {
-  box-sizing: border-box;
-  font-family: "Montserrat", sans-serif;
-  font-family: "Roboto", sans-serif;
+@font-face {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Roboto Light"), local("Roboto-Light"),
+    url("../fonts/roboto-v20-latin-300.woff2") format("woff2"),
+    url("../fonts/roboto-v20-latin-300.woff") format("woff");
 }
 
-body {
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Montserrat Light"), local("Montserrat-Light"),
+    url("../fonts/montserrat-v14-latin-300.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-300.woff") format("woff");
+}
+
+@font-face {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Montserrat Bold"), local("Montserrat-Bold"),
+    url("../fonts/montserrat-v14-latin-700.woff2") format("woff2"),
+    url("../fonts/montserrat-v14-latin-700.woff") format("woff");
+}
+html {
+  box-sizing: border-box;
+}
+
+* {
   margin: 0;
   padding: 0;
+  box-sizing: inherit;
 }
 
 .container {
