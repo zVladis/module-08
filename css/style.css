@@ -151,7 +151,7 @@ img {
   font-weight: 700;
   border-radius: 20px;
   cursor: pointer;
-  margin-top: 5px;
+  margin-top: 20px;
   outline: none;
 }
 
@@ -163,6 +163,7 @@ img {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 0;
+  margin-top: 30px;
 }
 
 .description {
@@ -171,6 +172,7 @@ img {
   font-family: "Roboto";
   font-size: 18px;
   font-weight: 300;
+  margin-top: 10px;
 }
 
 /* section 2 ___________________________________________________________________________ */
@@ -196,6 +198,7 @@ img {
   font-family: "Montserrat";
   font-size: 14px;
   font-weight: 700;
+  margin: 10px 0 10px 0;
 }
 
 .descript-partners {
@@ -204,6 +207,7 @@ img {
   font-family: "Roboto";
   font-size: 14px;
   font-weight: 300;
+  margin-bottom: 20px;
 }
 
 .partners-list_item {
@@ -226,7 +230,7 @@ img {
   position: relative;
   left: 50%;
   transform: translate(-50%, 0);
-  margin-top: 40px;
+  margin-top: 20px;
   margin-bottom: 58px;
   cursor: pointer;
   outline: none;
